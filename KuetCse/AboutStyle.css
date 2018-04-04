@@ -1,0 +1,178 @@
+﻿
+.slideshow-container {
+   
+     width:100%;
+     overflow:hidden;
+}
+    .slideshow-container img {
+    width:100%;
+    height:500px;
+    overflow:hidden;
+    
+    box-sizing:border-box;
+    }
+
+.tab {
+width:100%;
+}
+    .tab td {
+    width:33%;
+
+    }
+         .events p {
+        color:black;
+        text-align:center;
+        font-weight:bolder;
+        
+        font-size:25px;
+        }
+        .tab td ul li a{
+        font-weight:bolder;
+        color:black;
+        font-size:18px;
+        text-decoration:none;
+        list-style-type:square;
+     
+
+        }
+        .tab td ul li {
+        margin:10px;
+        }
+       .tab td ul li a:hover{
+ border:2px solid blue; 
+ color:blue; 
+}
+    .events {
+    background:url("Images/events.jpg");
+    background-repeat:no-repeat;
+    opacity:.8;
+    height:100%;width:100%;
+    }
+
+.messege {
+    background:url("Images/messege.png");
+    opacity:.8;
+    width:auto;height:auto;
+
+    }
+.Registration {
+background:url("Images/events.jpg");
+    background-repeat:no-repeat;
+    opacity:.8;
+    height:100%;width:100%;
+}
+.intro {
+	width: 100%;
+    height: 100%;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: table;
+    top: 0;
+}
+
+
+.content {
+	width: 28vw;
+    height: 83vh;
+    background: url("Images/spurn-point-3010549_1920.jpg");
+    margin: auto;
+    border-radius: 1%;
+    display: table;
+}
+
+.photo {
+	display: table-cell;
+    width: 42%;
+    height: 37%;
+    margin: auto;
+    border: 2px solid #726b6b;
+    border-radius: 100%;
+}
+
+.input1 {
+	display: table-cell;
+    margin-left: 3.5vw;
+    margin-top: 6vh;
+    padding: 1% 1% 1% 10%;
+    background: url("Images/if_user_925901.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: 20px;
+    font-family: 'Pacifico';
+    border: 0px;
+    border-bottom: 1px solid white;
+    width: 13.5vw;
+}
+
+.input2 {
+	display: table-cell;
+    margin-left: 3.5vw;
+    margin-top: 6vh;
+    padding: 1% 1% 1% 10%;
+    background: url("Images/if_user_925901.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: 20px;
+    font-family: 'Pacifico';
+    border: 0px;
+    border-bottom: 1px solid white;
+    width: 13.5vw;
+}
+
+.input2[placeholder] {
+	padding-left: 23%;
+    font-family: 'Lobster';
+    font-size: 1.9vw;
+}
+
+.input1[placeholder]{
+    padding-left: 23%;
+    font-family: 'Lobster';
+    font-size: 1.9vw;
+}
+
+.btn{
+    text-decoration: none;
+    display: block;
+    
+    margin-top: 6%;
+    height: 3vh;
+    padding: 3% 0% 3% 0%;
+    background: #12e553;
+   
+    font-size: 1.8vw;
+    color: #0d0707;
+}
+    .btn:hover {
+    color:red;
+    background:white;
+    font-weight:bolder;
+    }
+.forget {
+text-decoration:none;
+margin-top: 15px;
+    padding: 10px;
+     font-size: 20px;
+    color: black;
+    font-family:'Lobster';
+    display:block;
+    text-align:center;
+    text-align:center;
+    
+
+}
+.register {
+    text-decoration: none;
+   display:block;
+   margin-top:10px;
+   font-size:20px;
+   text-align:center;
+   margin-top: 15px;
+   color:black;font-family:'Lobster';
+
+}
+    .register:hover,.forget:hover {
+    color:white;
+    font-size:large;
+    }

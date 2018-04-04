@@ -1,0 +1,31 @@
+﻿.heading {
+text-align:center;color:white;
+}
+.navbar {
+   
+   margin-top:15px;
+   width:100%;
+   }
+
+ .menu {float:left;
+list-style:none;
+
+top:70px;
+}
+    .menu li {
+    display:inline-block;
+    margin:10px 5px;
+    }
+ .menu li a {
+        text-decoration:none;
+        color:#fff;
+        padding:5px 10px;
+        font-family:sans-serif;
+        letter-spacing:2px;
+        border: 1px solid #fff;
+        }
+  .menu li a:hover {
+            background:#fff;
+            transition:.4s;
+            color:#000;
+  }

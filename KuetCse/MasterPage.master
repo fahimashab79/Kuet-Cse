@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>
+     <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+             
+
+    </asp:ContentPlaceHolder>
+    </title>
+    <link href="homepagestyle.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+</head>
+<body style="background-image:url('Images/background.jpg')">
+    <form id="form1" runat="server">
+        <div>
+
+            <div class="heading">
+                <h1>KHULNA UNIVERITY OF ENGINEERING AND TECHNOLOGY</h1>
+                <h2>DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING</h2>
+
+            </div>
+
+            <div class="navbar">
+                <ul class="menu">
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Image gallery</a></li>
+                    <li><a href="">Academic</a></li>
+                    <li><a href="">Faculty member</a></li>
+                    <li><a href="">Facilities</a></li>
+                    <li><a href="">Contacts</a></li>
+                </ul>
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

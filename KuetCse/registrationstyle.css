@@ -1,0 +1,124 @@
+﻿.intro {
+background:url("Images/registration.jpg");
+
+background-position:center;
+ background-repeat: no-repeat;
+    background-size: cover;
+    margin-top:80px;
+    position:fixed;
+    display:compact;
+   height:100%;
+   width:100%;
+   overflow:scroll;
+
+}
+.inner {
+margin-top:50px;
+overflow:scroll;
+}
+.content {
+	margin-top:15px;
+    width: 28vw;
+    height: 83vh;
+    background: url("Images/spurn-point-3010549_1920.jpg");
+    margin: auto;
+    border-radius: 1%;
+    display: table;
+    overflow:scroll;
+    height:700px;
+}
+
+.photo {
+	display: table-cell;
+    width: 30%;
+    height: 20%;
+    margin: auto;
+    border: 2px solid #726b6b;
+    border-radius: 100%;
+    margin-top:10px;
+}
+.input1 {
+display:table-cell;
+background-size:contain;
+background-repeat:no-repeat;
+font-size:14px;
+border-bottom: 1px solid white;
+width:60%;
+margin-left:20%;
+margin-top:10px;
+height:25px;
+margin-right:20%;
+   
+}
+.input2 {
+display:table-cell;
+background-size:contain;
+background-repeat:no-repeat;
+font-size:14px;
+border-bottom: 1px solid white;
+width:60%;
+margin-left:20%;
+margin-top:10px;
+height:25px;
+margin-right:20%;
+   
+}
+.input3 {
+display:table-cell;
+background-size:contain;
+background-repeat:no-repeat;
+font-size:14px;
+border-bottom: 1px solid white;
+width:60%;
+margin-left:20%;
+margin-top:10px;
+height:25px;
+margin-right:20%;
+}
+.input4 {
+display:table-cell;
+background-size:contain;
+background-repeat:no-repeat;
+font-size:14px;
+border-bottom: 1px solid white;
+width:60%;
+margin-left:20%;
+margin-top:10px;
+height:25px;
+margin-right:20%;
+}
+.input5 {
+display:table-cell;
+background-size:contain;
+background-repeat:no-repeat;
+font-size:14px;
+border-bottom: 1px solid white;
+width:60%;
+margin-left:20%;
+margin-top:10px;
+height:25px;
+margin-right:20%;
+}
+.input6 {
+display:table-cell;
+background-size:contain;
+background-repeat:no-repeat;
+font-size:14px;
+border-bottom: 1px solid white;
+width:60%;
+margin-left:20%;
+margin-top:10px;
+height:25px;
+margin-right:20%;
+}
+.signup {
+
+margin-top:20px;
+height:40px;
+background:white;
+margin-left:35%;
+margin-right:35%;
+width:30%;
+font-family:'pacifico';
+font-size:20px;
+}
